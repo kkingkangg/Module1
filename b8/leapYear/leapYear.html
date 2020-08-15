@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leap Year</title>
+</head>
+<body>
+<p>Nhập số năm mà bạn muốn kiểm tra</p>
+<input type="number" id="year">
+<button onclick="check()">Kiểm tra</button>
+<div id="result"></div>
+
+<script>
+    function check() {
+        let a = document.getElementById('year').value;
+        (a % 4 !== 0) ? alert('Không phải là năm nhuận') :
+            (a % 100 !== 0) ? alert('Là năm nhuận') :
+                (a % 400 == 0) ? alert('Là năm nhuận') : alert('Không phải là năm nhuận');
+    }
+</script>
+</body>
+</html>
