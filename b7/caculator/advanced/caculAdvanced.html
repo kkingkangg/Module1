@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        button{
+            width: 50px;
+            height: 50px;
+        }
+        input{
+            width:450px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<table style="border: 1px">
+    <table>
+        <tr>
+            <th colspan="8"> <h1>Calculator</h1></th>
+        </tr>
+        <tr>
+            <td colspan="8"><input type="text" id="number" ></td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="">(</button></td>
+            <td><button type="button">)</button></td>
+            <td><button type="button">x!</button></td>
+            <td><button type="button">%</button></td>
+            <td><button type="button"  value="1" onclick="inputNum('1')">1</button></td>
+            <td><button type="button"  value="2" onclick="inputNum('2')">2</button></td>
+            <td><button type="button"  value="3" onclick="inputNum('3')">3</button></td>
+            <td><button type="button" value="+" onclick="inputNum('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button type="button">sin</button></td>
+            <td><button type="button">cos</button></td>
+            <td><button type="button">tan</button></td>
+            <td><button type="button">cot</button></td>
+            <td><button type="button" id="4" value="4" onclick="inputNum('4')">4</button></td>
+            <td><button type="button" id="1" value="5" onclick="inputNum('5')">5</button></td>
+            <td><button type="button" value="6" onclick="inputNum('6')">6</button></td>
+            <td><button type="button" value="-" onclick="inputNum('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button type="button">log</button></td>
+            <td><button type="button">e</button></td>
+            <td><button type="button">Ans</button></td>
+            <td><button type="button">EXP</button></td>
+            <td><button type="button" value="7" onclick="inputNum('7')">7</button></td>
+            <td><button type="button" value="8" onclick="inputNum('8')">8</button></td>
+            <td><button type="button" value="9" onclick="inputNum('9')">9</button></td>
+            <td><button type="button" value="*" onclick="inputNum('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" >AC</button></td>
+            <td colspan="2"><button type="button">Inv</button></td>
+            <td><button type="button">Rad</button></td>
+            <td><button value="reset" onclick="document.getElementById('number').value=''">C</button></td>
+            <!-- Có thể đặt cả document.getElementById().value... hoặc tương tự vào trong event onclick-->
+            <td><button type="button" value="0" onclick="inputNum('0')">0</button></td>
+            <td><button type="button" onclick="result()">=</button></td>
+            <td><button type="button" value="/" onclick="inputNum('/')">/</button></td>
+        </tr>
+    </table>
+    <script>
+        function inputNum(input){
+            document.getElementById('number').value+=input;
+        }
+        function result(){
+            let  inputValue= document.getElementById('number').value;
+            let  inputString=eval(inputValue);
+            document.getElementById('number').value=inputString;
+        }
+    </script>
+</body>
+</html>
