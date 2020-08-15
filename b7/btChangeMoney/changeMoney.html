@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<form action="">
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="amount" ></td>
+            <td><select  id="fromCurrency" style="width: 150px">
+                <option name="VND" value="1">VND</option>
+                <option name="USD" value="23000">USD</option>
+                <option name="USD" value="212">JPY</option>
+            </select></td>
+            <!--            Với thẻ select thì id đặt ở select chứ không để ở option-->
+            <td><select  id="toCurrency" style="width: 150px">
+                <option name="VND" value="1">VND</option>
+                <option name="USD" value="23000">USD</option>
+                <option name="USD" value="212">JPY</option>
+            </select></td>
+            <td><input type="button" value="Convert" onclick="convert()"></td>
+        </tr>
+        <tr>
+            <td colspan="4"><p id="showResult"></p></td>
+        </tr>
+    </table>
+</form>
+<script>
+    function convert(){
+        //Có thể đưa alert và và f12 run thử xem Button đã chạy hàm chưa trước khi viết tiếp.
+        let inputAmount = parseInt(document.getElementById('amount').value);
+        let fromCurrency= parseInt(document.getElementById('fromCurrency').value);
+        let toCurrency = parseInt(document.getElementById('toCurrency').value);
+        let result=(inputAmount*fromCurrency/toCurrency);
+        document.getElementById('showResult').innerText="Kết quả chuyển đổi bằng " + result.toFixed(2);
+    }
+</script>
+</body>
+</html>
