@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr> <h1>Calculator</h1></tr>
+    <tr>
+        <td colspan="2"><input type="number" id="firstNum"></td>
+        <td colspan="2"><input type="number" id="secondNum"></td>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="add()"><strong>Addition(+)</strong></button></td>
+        <td><button type="button" onclick="sub()"><strong>Subtraction(-)</strong></button></td>
+        <td><button type="button" onclick="mul()"><strong>Multiplication(*)</strong></button></td>
+        <td><button type="button" onclick="div()"><strong>Division(/)</strong></button></td>
+    </tr>
+    <tr>
+        <span id="output"></span>
+    </tr>
+</table>
+<script>
+    function add(){
+        let firstNum=Number(document.getElementById('firstNum').value);
+        let secondNum=Number(document.getElementById('secondNum').value);
+        let result=eval(firstNum+secondNum);
+        document.getElementById('output').innerHTML="Kết quả = " +result;
+    }
+    function sub(){
+        let firstNum=Number(document.getElementById('firstNum').value);
+        let secondNum=Number(document.getElementById('secondNum').value);
+        let result=eval(firstNum-secondNum);
+        document.getElementById('output').innerHTML="Kết quả = " +result;
+    }
+    function mul(){
+        let firstNum=Number(document.getElementById('firstNum').value);
+        let secondNum=Number(document.getElementById('secondNum').value);
+        let result=eval(firstNum*secondNum);
+        document.getElementById('output').innerHTML="Kết quả = " +result;
+    }
+    function div(){
+        let firstNum=Number(document.getElementById('firstNum').value);
+        let secondNum=Number(document.getElementById('secondNum').value);
+        let result=eval(firstNum/secondNum);
+        document.getElementById('output').innerHTML="Kết quả = " +result;
+    }
+</script>
+
+</body>
+</html>
