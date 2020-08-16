@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    let heavy = +prompt('Bạn bao nhiêu cân?', '');
+    let high = +prompt('Bao cao bao mét?', '');
+    let bmi = (heavy / (high*high));
+    (bmi < 18.5) ? alert('Underweight') : (bmi < 25) ? alert('Normal') : (bmi < 30) ? alert('Overweigh') : alert('Obese');
+</script>
+
+</body>
+</html>
