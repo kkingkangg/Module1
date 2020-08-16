@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545f5476-f5e8-4cc2-97ef-181ade157e1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BMI.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -25,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/../../b8/Lt_toanTu3ngoi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b8/Lt_toanTu3ngoi/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b8/Th_switch_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b8/Th_switch_case/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b8/leapYear/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b8/leapYear/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keyBoardEvent_shark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../keyBoardEvent_shark/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mouseEvent_ball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mouseEvent_ball/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -54,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ifElseExe/BMI.html" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597553594650</updated>
-      <workItem from="1597553595725" duration="205000" />
+      <workItem from="1597553595725" duration="1886000" />
     </task>
     <servers />
   </component>
