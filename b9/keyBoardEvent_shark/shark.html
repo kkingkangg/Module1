@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="docReady()">
+
+<img id="shark" src="shark.jpg" style="position:absolute;left:0; top:0;" height="300" width="300"/>
+
+<script>
+    function swimUp() {
+        let element = document.getElementById("shark");
+        element.style.top = parseInt(element.style.top) - 5 + 'px';
+    }
+
+    function swimDown() {
+        let element = document.getElementById("shark");
+        element.style.top = parseInt(element.style.top) + 5 + 'px';
+    }
+
+    function swimLeft() {
+        let element = document.getElementById("shark");
+        element.style.left = parseInt(element.style.left) - 5 + 'px';
+    }
+
+    function swimRight() {
+        let element = document.getElementById("shark");
+        element.style.left = parseInt(element.style.left) + 5 + 'px';
+    }
+
+    function moveSelection(evt) {
+        switch (evt.keyCode) {
+            case 37:
+                swimLeft();
+                break;
+            case 39:
+                swimRight();
+                break;
+            case 38:
+                swimUp();
+                break;
+            case 40:
+                swimDown();
+                break;
+        }
+    }
+
+    function docReady() {
+        window.addEventListener('keydown', moveSelection);
+    }
+</script>
+</body>
+</html>
