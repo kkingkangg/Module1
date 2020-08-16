@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table style="border: solid 1px black">
+    <td colspan="4"><input type="text" id="inputString"></td>
+    <br/>
+    <tr>
+        <td><button onclick="button('1')" value="1" style="width: 40px">1</button></td>
+        <td><button onclick="button('2')" value="2" style="width: 40px">2</button></td>
+        <td><button onclick="button('3')" value="3" style="width: 40px">3</button></td>
+        <td><button onclick="button('+')" value="+" style="width: 40px">+</button></td>
+    </tr>
+    <br/>
+    <tr>
+        <td><button onclick="button('4')" value="4" style="width: 40px">4</button></td>
+        <td><button onclick="button('5')" value="5" style="width: 40px">5</button></td>
+        <td><button onclick="button('6')" value="6" style="width: 40px">6</button></td>
+        <td><button onclick="button('-')" value="-" style="width: 40px">-</button></td>
+    </tr>
+    <br/>
+    <tr>
+        <td><button onclick="button('7')" value="7" style="width: 40px">7</button></td>
+        <td><button onclick="button('8')" value="8" style="width: 40px">8</button></td>
+        <td><button onclick="button('9')" value="9" style="width: 40px">9</button></td>
+        <td><button onclick="button('*')" value="*" style="width: 40px">x</button></td>
+    </tr>
+    <br/>
+    <tr>
+        <td><button onclick="reset('c')" value="c" style="width: 40px">C</button></td>
+        <td><button onclick="button('0')" value="0" style="width: 40px">0</button></td>
+        <td><button onclick="result('=')" value="=" style="width: 40px">=</button></td>
+        <td><button onclick="button('/')" value="/" style="width: 40px">/</button></td>
+    </tr>
+</table>
+
+<script>
+
+    function button(val) {
+        document.getElementById('inputString').value += val;
+    }
+
+    function result() {
+        let x = document.getElementById('inputString').value;
+        let y = eval(x);
+        if (y == Infinity) {
+            y = "Math Error";
+        }
+        document.getElementById('inputString').value = y;
+    }
+
+    function reset() {
+        document.getElementById('inputString').value = '';
+    }
+
+
+</script>
+
+</body>
+</html>
