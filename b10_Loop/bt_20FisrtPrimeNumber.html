@@ -7,17 +7,19 @@
 <body>
 
 
-<p>Bạn muốn kiểm tra 20 số nguyên tố đầu tiên?</p>
+<p>Bạn muốn kiểm tra BAO NHIÊU số nguyên tố đầu tiên?</p>
+<input type="number" id="num" placeholder="?? First prime number?">
 <input type="button" value="Chuẩn" onclick="check()">
 <div id="result"></div>
 
 
 <script>
     function check() {
+        let num = document.getElementById("num").value;
         let count = 0;
         let N = 2;
 
-        while (count < 20) {
+        while (count < num) {
             if (isPrime(N)) {
                 document.getElementById('result').innerHTML += N + "</br>";
                 count++;

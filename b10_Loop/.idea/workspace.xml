@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a456b7a-b27d-4336-ad1c-79cc6e8e32c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bt_20FisrtPrimeNumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt_20FisrtPrimeNumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt_20FisrtPrimeNumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -70,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597627734777</updated>
       <workItem from="1597627735903" duration="13491000" />
-      <workItem from="1597676138880" duration="6373000" />
+      <workItem from="1597676138880" duration="6684000" />
     </task>
     <servers />
   </component>
