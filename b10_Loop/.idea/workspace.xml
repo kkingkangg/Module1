@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a456b7a-b27d-4336-ad1c-79cc6e8e32c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../b9/bt_CTDK01/DK01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thWhile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -27,6 +27,7 @@
       <change beforePath="$PROJECT_DIR$/../b8/Th_switch_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b8/Th_switch_case/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b8/leapYear/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b8/leapYear/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b9/BMI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b9/BMI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b9/bt_CTDK01/DK01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b9/bt_CTDK01/DK01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b9/doUloveMe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b9/doUloveMe/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b9/goodCheapFast/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b9/goodCheapFast/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b9/keyBoardEvent_shark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b9/keyBoardEvent_shark/.idea/workspace.xml" afterDir="false" />
@@ -58,6 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,11 +69,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597627734777</updated>
-      <workItem from="1597627735903" duration="3118000" />
+      <workItem from="1597627735903" duration="6143000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="951" y="167" key="FileChooserDialogImpl" timestamp="1597637432214">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="951" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597637432214" />
   </component>
 </project>
