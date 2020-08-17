@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<p>Bạn muốn kiểm tra 20 số nguyên tố đầu tiên?</p>
+<input type="button" value="Chuẩn" onclick="check()">
+<div id="result"></div>
+
+
+<script>
+    function check() {
+        let count = 0;
+        let N = 2;
+
+        while (count < 20) {
+            if (isPrime(N)) {
+                document.getElementById('result').innerHTML += N + "</br>";
+                count++;
+            }
+            N = N + 1;
+        }
+    }
+
+
+    function isPrime(N) {
+        if (N < 2)
+            return false;
+        for (let i = 2; i <= Math.sqrt(N); i++) {
+            if (N % i == 0)
+                return false;
+        }
+        return true;
+    }
+
+
+
+
+
+</script>
+</body>
+</html>
