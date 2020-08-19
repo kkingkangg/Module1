@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Bài 1: chuyển từ độ C sang độ F
+    // let c = parseInt(prompt('Nhập độ C'));
+    // let f= c*9/5 + 32;
+    // alert('Giá trị độ F là ' + f);
+
+
+    //    Bài 2: chuyển từ mét sang feet
+    //     let m = parseInt(prompt('Nhập số m muốn chuyển đổi'));
+    //     let feet = 0;
+    //     if (m<=0) {
+    //         alert('Nhập sai');
+    //     }
+    //     else {
+    //         feet = m * 3.2808;
+    //     }
+    //     alert(m + ' mét bằng ' + feet + ' feet');
+
+
+    //      Bài 3: tính diện tích hình vuông khi biết cạnh a
+    //         let edge = parseInt(prompt('Nhập cạnh hình vuông'));
+    //         let area = 0;
+    //         if (edge<=0) {
+    //             alert('Không có cái cạnh hình vuông nào mà nó như thế hết á');
+    //         }
+    //         else {
+    //             area = edge * edge;
+    //             alert('Diện tích hình vuông bằng ' + area + 'm2');
+    //         }
+
+
+    //    Bài 4: Tính diện tích hình chữ nhật khi biết 2 cạnh a, b
+    // let a = parseInt(prompt('Nhập chiều dài hình chữ nhật'));
+    // let b = parseInt(prompt('Nhập chiều rộng hình chữ nhật'));
+    // let area1 = 0;
+    // if (a<=0 || b<=0) {
+    //     alert('Không có cái hình chữ nhật nào mà có cái cạnh như thế hết á');
+    // } else {
+    //     area1 = a * b;
+    //     alert('Diện tích hình chữ nhật bằng ' + area1 + 'm2');
+    // }
+
+
+    //Bài 5: Tính diện tích tam giác vuông khi biết 2 cạnh góc vuông
+    // let a = parseInt(prompt('Nhập 1 cạnh góc vuông'));
+    // let b = parseInt(prompt('Nhập cạnh góc vuông còn lại'));
+    // let area2 = 0;
+    // if (a<=0 || b<=0) {
+    //     alert('Không có cái tam giác nào mà có cái cạnh như thế hết á');
+    // } else {
+    //     area2 = a * b/2;
+    //     alert('Diện tích tam giác vuông bằng ' + area2 + 'm2');
+    // }
+
+
+    //   Bài 6: Giải phương trình bậc 1
+    //     let c = confirm('Phương trình bậc 1 có dạng ax + b = 0');
+    //     let a = parseInt(prompt('Nhập số a'));
+    //     let b = parseInt(prompt('Nhập số b'));
+    //     let d = 0;
+    //     if (a<=0) {
+    //         alert('Phương trình vô nghiệm');
+    //     }
+    //     else {
+    //         d = (-b)/a;
+    //         alert('Nghiệm của phương trình bậc nhất là: ' + d);
+    //     }
+
+
+    //    Bài 7: Giải phương trình bậc 2
+    //     let z = confirm('Phương trình bậc 2 có dạng ax^2 + bx + c = 0');
+    //     let a = parseFloat(prompt('Nhập số a'));
+    //     let b = parseFloat(prompt('Nhập số b'));
+    //     let c = parseFloat(prompt('Nhập số c'));
+    //     let delta = b*b - 4*a*c;
+    //     let e = (-c)/a;
+    //     let f = (-b)/a;
+    //     let g = Math.sqrt(delta);
+    //     if (a == 0) {
+    //         alert('Phương trình ko phải là phương trình bậc 2');
+    //     }
+    //     else if (b==0) {
+    //         alert('Phương trình có 2 nghiệm là x=' + e + ' và x=' + (-e));
+    //     }
+    //     else if (c==0) {
+    //         alert('Phương trình có nghiệm là x=0 hoặc x=' + f);
+    //     } else {
+    //         if(delta <0){
+    //             alert('Phương trình vô nghiệm');
+    //         }
+    //         else if (delta ==0) {
+    //             alert('Phương trình có nghiệm kép x1 = x2 = ' + (-b)/2a);
+    //         }
+    //         else if (delta > 0) {
+    //             alert('Phương trình có 2 nghiệm x1=' + (-b-g)/2a + ', x2=' + (-b+g)/2a);
+    //         }
+    //     }
+
+
+    // Bài 8: Kiểm tra xem số nhập vào có phải alf tuổi của 1 người ko
+    // let age = parseInt(prompt('Nhập số tuổi vào đây'));
+    // if (age > 0 && age <= 120) {
+    //     alert('Đây là tuổi của 1 người bình thường');
+    // } else alert('Đây không phải là số tuổi của 1 người');
+
+
+    // Bải 9: Kiểm tra xem 3 số (a b c) có là 3 cạnh của tam giác không.
+    let a = parseFloat(prompt('Nhập giá trị cạnh a'));
+    let b = parseFloat(prompt('Nhập giá trị cạnh b'));
+    let c = parseFloat(prompt('Nhập giá trị cạnh c'));
+    let none = alert(' không phải giá trị của 3 cạnh tam giác');
+    if (a > 0 && b > 0 && c > 0) {
+        if ((a + b) > c) {
+            if ((b + c) > a) {
+                if ((a + c) > b) {
+                    alert("3 giá trị vừa nhập là giá trị 3 cạnh của 1 tam giác");
+                } else none;
+            } else none;
+        } else none;
+    } else none;
+
+
+</script>
+</body>
+</html>

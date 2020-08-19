@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1ffe55-d0e2-4fa0-92a3-f557f4c9c927" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bt_CTDK01/DK02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
@@ -26,17 +27,19 @@
       <change beforePath="$PROJECT_DIR$/../b8/Lt_toanTu3ngoi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b8/Lt_toanTu3ngoi/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b8/Th_switch_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b8/Th_switch_case/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b8/leapYear/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b8/leapYear/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BMI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BMI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bt_CTDK01/DK01.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt_CTDK01/DK01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doUloveMe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doUloveMe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goodCheapFast/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goodCheapFast/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyBoardEvent_shark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keyBoardEvent_shark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mouseEvent_ball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mouseEvent_ball/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -48,9 +51,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597845098852</updated>
-      <workItem from="1597845099883" duration="2248000" />
+      <workItem from="1597845099883" duration="6481000" />
     </task>
     <servers />
   </component>
