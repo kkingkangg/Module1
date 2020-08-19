@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // bài 2: tính giai thừa của 1 số nguyên dương
+    // let num = parseInt(prompt('Bạn muốn tính giai thừa của số nào?'));
+    // let sum = 1;
+    // if (num<0) {
+    //     alert(num + ' không phải là số nguyên dương');
+    // }
+    // else {
+    //     for (let i=1; i <= num; i++){
+    //         sum = sum * i;
+    //     }
+    // }
+    // document.write('Giai thừa của ' + num + ' là: ' + sum);
+
+
+//    Bài 3: in tam giác
+//     let triangle;
+//     triangle = "<table border='solid' width='50'>";
+//     let i = 1;
+//     let j = 1;
+//
+//     for (i = 1; i <=5; i++) {
+//         triangle = triangle + "<tr>";
+//         for (j = 1; j <=5; j++){
+//             if (j<=i) {
+//                 triangle = triangle + "<td>" + "*" + "</td>";
+//             }
+//         }
+//         triangle = triangle + "</tr>";
+//     }
+//     triangle = triangle + "</table>";
+//     document.write(triangle + '</br>');
+//
+//
+//     let triangle1;
+//     triangle1 = "<table border='solid' width='50'>";
+//     for (i = 1; i <=6; i++) {
+//         triangle1 = triangle1 + "<tr>";
+//         for (j = 1; j <=6; j++){
+//             if (j<=6-i) {
+//                 triangle1 = triangle1 + "<td>" + "*" + "</td>";
+//             }
+//         }
+//         triangle1 = triangle1 + "</tr>";
+//     }
+//     triangle1 = triangle1 + "</table>";
+//     document.write(triangle1  + '</br>');
+//
+//
+//     let triangle2;
+//     triangle2 = "<table border='solid' width='50'>";
+//     for (i = 1; i <=5; i++) {
+//         triangle2 = triangle2 + "<tr>";
+//         for (j =1; j<=5; j++){
+//             if (j<6-i) {
+//                 triangle2 = triangle2 + "<td>" + " " + "</td>";
+//             }else {
+//                 triangle2 = triangle2 + "<td>" + "*" + "</td>";
+//             }
+//         }
+//         triangle2 = triangle2 + "</tr>";
+//     }
+//     triangle2 = triangle2 + "</table>";
+//     document.write(triangle2  + '</br>');
+//
+//
+//     let triangle3;
+//     triangle3 = "<table border='solid' width='50'>";
+//     for (i = 1; i <=5; i++) {
+//         triangle3 = triangle3 + "<tr>";
+//         for (j =1; j<=6; j++){
+//             if (j<=i) {
+//                 triangle3 = triangle3 + "<td>" + " " + "</td>";
+//             }else {
+//                 triangle3 = triangle3 + "<td>" + "*" + "</td>";
+//             }
+//         }
+//         triangle3 = triangle3 + "</tr>";
+//     }
+//     triangle3 = triangle3 + "</table>";
+//     document.write(triangle3  + '</br>');
+
+// Bài 4: in hình chữ nhật
+
+    let rectangle;
+    rectangle = "<table border='solid' width='50'>";
+    let i = 1;
+    let j = 1;
+
+    for (i = 1; i <=8; i++) {
+        rectangle = rectangle + "<tr>";
+        for (j=1; j <=20;){
+            let n=2;
+            if (j>=n && j<=21-n) {
+                rectangle = rectangle + "<td>" + "*" + "</td>";
+            }
+            else {
+                rectangle = rectangle + "<td>" + " " + "</td>"
+            }
+            j++;
+            n++;
+        }
+        rectangle = rectangle + "</tr>";
+    }
+    rectangle = rectangle + "</table>";
+    document.write(rectangle + '</br>');
+
+
+
+
+
+</script>
+</body>
+</html>
