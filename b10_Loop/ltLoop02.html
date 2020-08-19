@@ -89,32 +89,32 @@
 //     document.write(triangle3  + '</br>');
 
 // Bài 4: in hình chữ nhật
-
-    let rectangle;
-    rectangle = "<table border='solid' width='50'>";
-    let i = 1;
-    let j = 1;
-
-    for (i = 1; i <=8; i++) {
-        rectangle = rectangle + "<tr>";
-        for (j=1; j <=20;){
-            let n=2;
-            if (j>=n && j<=21-n) {
-                rectangle = rectangle + "<td>" + "*" + "</td>";
-            }
-            else {
-                rectangle = rectangle + "<td>" + " " + "</td>"
-            }
-            j++;
-            n++;
-        }
-        rectangle = rectangle + "</tr>";
-    }
-    rectangle = rectangle + "</table>";
-    document.write(rectangle + '</br>');
+//     let rong= parseInt(prompt("Nhập chiều rộng hình chữ nhật:"));
+//     let dai= parseInt(prompt("Nhập chiều dài hình chữ nhật:"));
+//     for (i=0; i<rong; i++){
+//         for (j=0; j<dai; j++){
+//             if ( i == 0 || i == rong-1 || j == 0 || j == dai-1 ){
+//                 document.write("*");
+//             }
+//             else document.write("&nbsp&nbsp");
+//
+//         }
+//         document.write("<br>");
+//     }
 
 
+   bài 5: viết chương tình tính lãi ngân hàng (lãi mẹ đẻ lãi con) khi biết số tiền cho vay và lãi hàng tháng
+    let goc = parseFloat(prompt('Nhập số tiền vay'));
+    let laiSuat = parseFloat(prompt('Nhập lãi suất (đơn vị tính %)'));
+    let thang = parseFloat(prompt('Nhập số tháng vay'));
+    let vay;
+    let lai;
 
+    for(let i = 1; i<=thang; i++) {
+        lai = (goc * laiSuat)/100;
+        vay = goc + lai;
+        goc = vay;
+    } document.write('Số tiền vay cuối cùng là: ' + vay);
 
 
 </script>
