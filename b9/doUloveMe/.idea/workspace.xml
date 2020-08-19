@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9d03dcb-3bd0-445b-8192-c9d9e40b9125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doUloveMe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -26,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/../../b8/Th_switch_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b8/Th_switch_case/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b8/leapYear/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b8/leapYear/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BMI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BMI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keyBoardEvent_shark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../keyBoardEvent_shark/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mouseEvent_ball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mouseEvent_ball/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -54,7 +54,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../goodCheapFast" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597556452383</updated>
-      <workItem from="1597556453462" duration="898000" />
+      <workItem from="1597556453462" duration="1542000" />
     </task>
     <servers />
   </component>
@@ -73,6 +73,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="951" y="167" key="FileChooserDialogImpl" timestamp="1597559387866">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="951" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597559387866" />
     <state x="833" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597556508415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

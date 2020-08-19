@@ -1,10 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<script>
+    //bài 1: nhập vào 2 số a,b. kiểm tra xem a có chia hết cho b ko
+    //     let a = +prompt('Nhập số a');
+    //     let b = +prompt('Nhập số b');
+    // (a % b ==0) ? alert('a chia hết cho b') : alert('a không chia hết cho b');
+
+
+    // Bài 2: Nhập tuổi và in ra kết quả nếu học sinh đó không đủ điều kiện học lớp 10
+    //         let age = +prompt('Nhập tuổi của bạn');
+    // (age < 16) ? alert('Bạn chưa đủ tuổi vào học lớp 10') : alert('Bạn đủ tuổi rồi');
+
+
+    //Bài 3: Nhập số nguyên bất kỳ, in ra màn hình xem số đó là lớn hay nhỏ hơn 0
+    // let a = +prompt('Mời nhập', '');
+    // if (a > 0) {
+    //     document.write('Đây là số lớn hơn 0');
+    // } else if (a == 0) {
+    //     document.write('a = 0');
+    // } else { document.write('Đây là số lớn hơn 0')}
+
+
+    //Bài 4: Nhập 3 số nguyên và tìm giá trị lớn nhất của 3 số đó
+    // let a = parseFloat(prompt('Nhập số a'));
+    // let b = parseFloat(prompt('Nhập số b'));
+    // let c = parseFloat(prompt('Nhập số c'));
+    //
+    // if (a > b) {
+    //     if (a > c) {
+    //         alert('a là số lớn nhất');
+    //     } else {
+    //         alert('c là số lớn nhất');
+    //     }
+    // } else {
+    //     if (b > c) {
+    //         alert('b là số lớn nhất');
+    //     } else {
+    //         alert('c là số lớn nhất');
+    //     }
+    // }
+
+
+    //Bài 5: xếp hạng học lực theo bài kiểm tra, điểm giữa kỳ, điểm cuối kỳ
+    // let a = parseFloat(prompt('Nhập điểm kiểm tra'));
+    // let b = parseFloat(prompt('Nhập điểm thi giữa kỳ'));
+    // let c = parseFloat(prompt('Nhập điểm thi cuối kỳ'));
+    // let d = (a + (b*2) + (c*3))/6;
+    // if (d <= 10 && d >= 8) {
+    //     alert('Xếp loại học lực giỏi');
+    // } else if (d < 8 && d >= 6.5) {
+    //     alert('Xếp loại học lực khá');
+    // } else if (d < 6.5 && d >= 5) {
+    //     alert('Xếp loại học lực trung bình');
+    // } else if (d < 5 && d >= 3.5) {
+    //     alert('Xếp loại học lực yếu');
+    // } else if (d < 3.5 && d >= 0) {
+    //     alert('Xếp loại học lực kém');
+    // } else { alert('Không thể xếp loại');}
+
+
+    //Bài 6: Tính hoa hồng nhận được tùy theo doanh số bán hàng
+    // let sale = parseInt(prompt('Nhập doanh số bán hàng'));
+    // let rose = 0;
+    // let roseMoney = 0;
+    // if (sale <= 0) {
+    //     alert('Buôn bán cái kiểu gì để âm tiền thế này?? Đuổi việc!!!');
+    // }
+    // else if (sale <300000000) {
+    //     alert('Doanh thu chưa đủ để nhận hoa hồng nhé, bạn cần cố gắng thêm');
+    // }
+    // else if (sale >= 300000000) {
+    //     rose = 2/100;
+    //     roseMoney = sale * rose;
+    // }
+    // else if (sale >= 500000000) {
+    //     rose = 3/100;
+    //     roseMoney = sale * rose;
+    // }
+    // else if (sale >= 750000000) {
+    //     rose = 5/10;
+    //     roseMoney = sale * rose;
+    // }
+    // else if (sale >=1000000000) {
+    //     rose = 7/100;
+    //     roseMoney = sale * rose;
+    // }
+    // alert('Số tiền hoa hồng bạn nhận được là: ' + roseMoney);
+
+
+    // Bài 7: tính cước điện thoại cho 1 hộ gia đình
+    let hours = parseInt(prompt('SỐ giờ gọi điện thoại'));
+    let change = 0;
+    let money = 0;
+    if (hours <= 0) {
+        alert('Bạn chưa phát sinh cuộc gọi trong tháng này');
+    }
+    else if (hours <= 20 && hours > 0) {
+        change = 1500;
+        money = hours * change;
+    }
+    else if (hours >= 40) {
+        change = 2000;
+        money = hours * change;
+    }
+    else if (hours >= 60) {
+        change = 2300;
+        money = hours * change;
+    }
+    else if (hours >= 80) {
+        change = 2500;
+        money = hours * change;
+    }
+    alert('Cước phí điện thoại của bạn là: ' + money);
+
+
+</script>
 </body>
 </html>
