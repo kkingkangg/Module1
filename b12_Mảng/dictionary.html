@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Dictionary</h1>
+<input type="text" id="input">
+<input type="button" id="button" value="Translate" onclick="trans()">
+<p id="result"></p>
+<script>
+    function trans() {
+        let vi = ['Bố mẹ', 'Cuộc sống', 'Tiền', 'Học hành', 'Dịch bệnh'];
+        let en = ['Parent', 'Life', 'Money', 'Study', 'Disease'];
+        let text = document.getElementById('input').value;
+        let result = '';
+        let size = vi.length;
+        for (let i = 0; i < size; i++) {
+            if (text === vi[i]) {
+                result = en[i];
+                break;
+            } else if (text === en[i]) {
+                result = vi[i];
+                break;
+            } else {
+                result = "Từ điển của tôi không có từ bạn cần tìm, tra google nhé";
+            }
+        }
+        document.getElementById("result").innerHTML = result;
+    }
+
+
+
+</script>
+</body>
+</html>
