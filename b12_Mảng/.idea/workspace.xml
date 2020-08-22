@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eaad7da-8013-4b6c-8c46-d2e4ef3ea0ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/simpleCaro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lt_mang01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -69,11 +69,19 @@
       <updated>1597852688613</updated>
       <workItem from="1597852689736" duration="3280000" />
       <workItem from="1597886010835" duration="9320000" />
-      <workItem from="1597912595566" duration="1668000" />
+      <workItem from="1597912595566" duration="4770000" />
+      <workItem from="1597972490591" duration="11046000" />
+      <workItem from="1598072563988" duration="13713000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="837" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597972751033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="837" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597972751033" />
   </component>
 </project>
