@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+
+    function findMin(arr) {
+        if (arr.length == 0)
+            return 'Mảng ko có phần tử';
+
+        let min = arr[0];
+        for (let i = 1; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+        return min;
+    }
+
+    let arr1 = [3, 5, 1, 8, -3, 7, 8];
+    let arr2 = [7, 12, 6, 9, 20, 56, 89];
+    let arr3 = [];
+    let arr4 = [0, 0, 0, 0, 0, 0];
+    let s1 = findMin(arr1);
+    let s2 = findMin(arr2);
+    let s3 = findMin(arr3);
+    let s4 = findMin(arr4);
+    document.write(s1 + '<br>');
+    document.write(s2 + '<br>');
+    document.write(s3 + '<br>');
+    document.write(s4 + '<br>');
+
+</script>
+</body>
+</html>
