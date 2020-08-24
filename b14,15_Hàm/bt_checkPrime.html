@@ -8,17 +8,30 @@
 
 <script>
     let a = parseInt(prompt('Nhập số cần kiểm tra'));
+    let arr = [];
     function isPrime(x) {
         if (x<2)
-            return 'Số đó không phải là số nguyên tố';
+            return false;
         for (let i =2 ; i <= Math.sqrt(x); i++) {
                 if (x % i === 0)
-                    return 'Số đó không phải là số nguyên tố';
+                    return false;
         }
-        return 'Số đó là số nguyên tố';
+        return true;
     }
-    let c= isPrime(a);
-    document.write(c);
+    // let c = isPrime(a);
+    // if (c) {
+    //     document.write('so NT');
+    // }
+    // else { document.write('ko phai so nt');}
+    // document.write()
+
+    for (let j = 0; j <= a; j++) {
+        if (isPrime(j)) {
+            arr.push(j);
+        }
+    }
+    document.write(arr);
+
 </script>
 </body>
 </html>
