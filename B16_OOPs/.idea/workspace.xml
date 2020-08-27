@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84ec5a2-0444-4ac8-bc15-c5fe182c6ada" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/th_buildDateClass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/th_veCacHinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../b14,15_Hàm/bt_ungDungQuanLySanPham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../b14,15_Hàm/lt_Ham01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/th_lopHinhTron.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/bt_meterAndFeet.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/bt_meterAndFeet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/bt_ungDungQuanLySanPham.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/bt_ungDungQuanLySanPham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/lt_Ham01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/lt_Ham01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -62,6 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598423181603</updated>
       <workItem from="1598423182798" duration="25000" />
-      <workItem from="1598492817760" duration="8407000" />
+      <workItem from="1598492817760" duration="8826000" />
+      <workItem from="1598519267721" duration="1159000" />
     </task>
     <servers />
   </component>
