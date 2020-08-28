@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84ec5a2-0444-4ac8-bc15-c5fe182c6ada" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/th_funnyCircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lt_classDescriptionRectangle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/th_lopHinhTron.html" beforeDir="false" afterPath="$PROJECT_DIR$/th_lopHinhTron.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" afterDir="false" />
@@ -74,11 +75,17 @@
       <updated>1598423181603</updated>
       <workItem from="1598423182798" duration="25000" />
       <workItem from="1598492817760" duration="8826000" />
-      <workItem from="1598519267721" duration="2353000" />
+      <workItem from="1598519267721" duration="5746000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="775" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598525177605">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="775" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598525177605" />
   </component>
 </project>
