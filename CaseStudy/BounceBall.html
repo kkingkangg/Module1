@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas style="border: 5px solid black; background: bisque " id="canvas" width="500" height="500"></canvas>
+<span style="font-size: 40px; vertical-align: top;">Your score: <span id="score">0</span></span>
+<br><span style="font-size: 60px" id="over"></span>
+
+
+<script src="Ball.js"></script>
+<script src="Bar.js"></script>
+<script>
+    let canvas = document.getElementById('canvas');
+    let ball = new Ball(10, 10, 10, canvas);
+    let score = 0
+    ball.x = ball.random(100, 450);
+
+    let bar = new Bar (175, 475, 150, 15, canvas, ball);
+    bar.listenKeyPressed();
+
+    let id;
+    id = setInterval(function () {
+        if (ball.isGameOver) {
+            clearInterval(id);
+        }
+        ball.drawBall();
+        ball.moveBall();
+        ball.collision();
+        bar.drawBar();
+        bar.moveBar();
+        bar.collision()
+    }, 10);
+
+</script>
+</body>
+</html>
+

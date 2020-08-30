@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22a2170a-61b3-4512-85a9-03612a9457e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ball.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BounceBall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B16_OOPs/bt_.html" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/bt_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/bt_meterAndFeet.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/bt_meterAndFeet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/bt_ungDungQuanLySanPham.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/bt_ungDungQuanLySanPham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/lt_Ham01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/lt_Ham01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b5/simpleForm/dkyHV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/simpleForm/dkyHV/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b5/surveyForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/surveyForm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b5/tableAdvanced/calendar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/tableAdvanced/calendar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b5/tableAdvanced/chess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/tableAdvanced/chess/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b5/tableBasic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/tableBasic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b5/tableSchedule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/tableSchedule/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b5/userForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/userForm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b6/THkhaibaoBien/khaibaoBien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b6/outputJS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b6/outputJS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b7/btBienKieudulieuToantu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b7/btBienKieudulieuToantu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b7/btChangeMoney/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b7/btChangeMoney/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b7/caculator/advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b7/caculator/advanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b7/caculator/basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b7/caculator/basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b7/thToanTu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b7/thToanTu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b8/Lt_ifElseIf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b8/Lt_ifElseIf/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b8/Lt_toanTu3ngoi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b8/Lt_toanTu3ngoi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b8/Th_switch_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b8/Th_switch_case/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b8/leapYear/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b8/leapYear/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b9/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gmh95UauIjLN8qydfwkYMCKkbJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22a2170a-61b3-4512-85a9-03612a9457e2" name="Default Changelist" comment="" />
+      <created>1598725520656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598725520656</updated>
+      <workItem from="1598725521922" duration="5582000" />
+      <workItem from="1598792695633" duration="1109000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
