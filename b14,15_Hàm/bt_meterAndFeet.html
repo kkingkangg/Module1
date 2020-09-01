@@ -5,9 +5,34 @@
     <title>Title</title>
 </head>
 <body>
-<input type="number" id="">
+<!--<h2>Change</h2>-->
+<!--<input type="number" id="feet" onchange="meterToFeet()">-->
+<!--<input type="button" value="Revert" onclick="">-->
+<!--<div id="convert1"></div>-->
+<!--<br/>-->
+<!--<br/>-->
+<!--<input type="number" id="meter" onchange="feetToMeter()">-->
+<!--<input type="button" value="Revert" onclick="">-->
+<!--<div id="convert2"></div>-->
+
+<form>
+    <p>
+        <label>Meter To Feet</label>
+        <input id="meter" type="number" placeholder="Meter"
+               oninput="chage(this.value)"
+               onchange="change(this.value)">
+    </p>
+    <p>Feet: <span id="meter"></span></p>
+</form>
+
 <script>
 
+    function change(valNum) {
+        valNum = parseFloat(valNum);
+        let feet = (valNum-32) / 1.8;
+        document.getElementById("meter").innerHTML = feet;
+    }
 </script>
+
 </body>
 </html>

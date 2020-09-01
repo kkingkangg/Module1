@@ -5,6 +5,110 @@
     <title>Title</title>
 </head>
 <body>
+<div>
+    <h2>Add New Product</h2>
+    <input type="text" id="newProduct">
+    <input type="button" value="Add" onclick="add()">
+</div>
+<h2>Display</h2>
+<div id="display"></div>
+<script>
+    let array = [];
+    function drawTable(arr) {
+        let table = '<table border="solid 1px">';
+        for (let i = 0; i < arr.length; i++) {
+            table += '<tr>'
+            table += '<td>' + arr[i] + '</td>';
+            table += '<td><input type="button" value="edit"></td>';
+            table += '<td><input type="button" value="delete"></td>';
+            table += '</tr>';
+        }
+        table += '</table>';
+        document.write(table);
+    }
 
+
+    function add() {
+        let n = document.getElementById('newProduct').value;
+        arr.push(n);
+    }
+
+
+
+
+
+
+</script>
 </body>
+
+
+
+
+
+
+
+
+<!--<body>-->
+<!--<div id="top">-->
+<!--    <form>-->
+<!--        <h3>Add New Product</h3>-->
+<!--        <input id="inputNewProduct" type="text" placeholder="New Product">-->
+<!--        <input onclick="addNewProduct(document.getElementById('inputNewProduct').value)" type="button" value="Add">-->
+<!--    </form>-->
+<!--    <br>-->
+<!--    <form>-->
+<!--        <input id="displayEditProduct" type="text" placeholder="Edit Product">-->
+<!--        <input onclick="editProduct()" type="button" value="Edit">-->
+<!--    </form>-->
+<!--</div>-->
+<!--<div id="mid">-->
+<!--    <h3>Display All Product</h3>-->
+<!--</div>-->
+<!--<div id="display"></div>-->
+<!--<script>-->
+<!--    let display = document.getElementById("display");-->
+<!--    let productArr = ["Sony Xperia", "Samsung Galaxy", "Nokia 6", "Xiaomi Redmi Note 4", "Apple iPhone 6s", "Xiaomi Mi 5s", "Apple iPhone 8 Plus", "Fujitsu F-04E", "Oppo A71"]-->
+<!--    function displayListProduct() {-->
+<!--        sout = "<table>";-->
+<!--        sout = sout + "<tr>" + "<td colspan='3'>Product</td>" + "</tr>"-->
+<!--        for (let i = 0; i < productArr.length; i++) {-->
+<!--            sout = sout + "<tr>";-->
+<!--            sout = sout + "<td>" + (i + 1) + "</td>";-->
+<!--            sout = sout + "<td>" + "<span id='nameProduct' onclick='editProductName(this.innerHTML)' >" + productArr[i] + "</span>" + "</td>";-->
+<!--            sout = sout + "<td onclick='deleteProduct(this.innerHTML)'>" + "<input    type='button' value='Delete'>" + "<span  style=' display:none'>" + i + "</span>" + "</td>";-->
+<!--            sout = sout + "</tr>";-->
+<!--        }-->
+<!--        sout = sout + "</table>";-->
+<!--        display.innerHTML = sout;-->
+<!--    }-->
+<!--    function addNewProduct(product) {-->
+<!--        if (document.getElementById("inputNewProduct").value != "") {-->
+<!--            productArr[productArr.length] = product;-->
+<!--            displayListProduct();-->
+<!--            alert("Bạn đã thêm sản phẩm " + product + " vào danh sách");-->
+<!--            document.getElementById("inputNewProduct").value = "";-->
+<!--        }-->
+<!--    }-->
+<!--    let indexProduct;-->
+<!--    function editProductName(product) {-->
+<!--        let displayEditProduct = document.getElementById("displayEditProduct");-->
+<!--        displayEditProduct.value = product;-->
+<!--        indexProduct = productArr.indexOf(product);-->
+<!--    }-->
+<!--    function editProduct() {-->
+<!--        let displayEditProduct = document.getElementById("displayEditProduct");-->
+<!--        productArr[indexProduct] = displayEditProduct.value;-->
+<!--        alert(productArr[indexProduct]);-->
+<!--        displayListProduct();-->
+<!--        document.getElementById("displayEditProduct").value = "";-->
+<!--    }-->
+<!--    function deleteProduct(index) {-->
+<!--        // alert(index[index.length-8]);-->
+<!--        let row = +index[index.length - 8]-->
+<!--        alert(row);-->
+<!--        productArr.splice(row, 1);-->
+<!--        displayListProduct()-->
+<!--    }-->
+<!--</script>-->
+<!--</body>-->
 </html>
