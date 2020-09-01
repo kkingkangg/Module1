@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e831a3e6-0ca3-47c8-bf2a-79ea639f219a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bt_FakingTextareaOnTyping.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/Bar.js" afterDir="false" />
@@ -12,10 +11,7 @@
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bt_meterAndFeet.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt_meterAndFeet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bt_ungDungQuanLySanPham.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt_ungDungQuanLySanPham.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lt_Ham01.html" beforeDir="false" afterPath="$PROJECT_DIR$/lt_Ham01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -88,7 +84,7 @@
       <workItem from="1598328540128" duration="3031000" />
       <workItem from="1598345247085" duration="2107000" />
       <workItem from="1598423029788" duration="148000" />
-      <workItem from="1598945772763" duration="521000" />
+      <workItem from="1598945772763" duration="1326000" />
     </task>
     <servers />
   </component>

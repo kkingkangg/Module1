@@ -5,34 +5,29 @@
     <title>Title</title>
 </head>
 <body>
-<!--<h2>Change</h2>-->
-<!--<input type="number" id="feet" onchange="meterToFeet()">-->
-<!--<input type="button" value="Revert" onclick="">-->
-<!--<div id="convert1"></div>-->
-<!--<br/>-->
-<!--<br/>-->
-<!--<input type="number" id="meter" onchange="feetToMeter()">-->
-<!--<input type="button" value="Revert" onclick="">-->
-<!--<div id="convert2"></div>-->
-
-<form>
-    <p>
-        <label>Meter To Feet</label>
-        <input id="meter" type="number" placeholder="Meter"
-               oninput="chage(this.value)"
-               onchange="change(this.value)">
-    </p>
-    <p>Feet: <span id="meter"></span></p>
-</form>
-
+<input type="text" id="number" >
+<input type="button" value="Change to meters" onclick="fToM()">
+<input type="button" value="Change to feet" onclick="mToF()">
+<div id="meter"> </div><br>
+<div id="feet"> </div>
 <script>
 
-    function change(valNum) {
-        valNum = parseFloat(valNum);
-        let feet = (valNum-32) / 1.8;
-        document.getElementById("meter").innerHTML = feet;
+
+    function feetToMeter(number){
+        return  (0.305)*number;
     }
-</script>
+    function meterToFeet(number){
+        return (3.279)*number;
+
+    }
+    function fToM(){
+        let V=document.getElementById('number').value;
+        document.getElementById('meter').innerHTML= feetToMeter(V);
+    }
+    function mToF(){
+        let V=document.getElementById('number').value;
+        document.getElementById('feet').innerHTML= meterToFeet(V);
+    }
 
 </body>
 </html>
