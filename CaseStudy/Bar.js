@@ -1,13 +1,12 @@
-function Bar(x, y, width, height, canvas, ball) {
+function Bar(x, y, width, height, ball) {
     this.x = x;
     this.y = y;
     this.width = width;
     this.height = height;
-    this.canvas = canvas;
-    this.ball = ball
+    this.ball = ball;
 
-    this.rightPressed = false  //??
-    this.leftPressed = false;  //??
+    this.rightPressed = false
+    this.leftPressed = false;
 
     this.listenKeyPressed = function () {
         let _this = this
@@ -20,7 +19,6 @@ function Bar(x, y, width, height, canvas, ball) {
                 _this.rightPressed = true;
             }
         });
-
         window.addEventListener('keyup', function (event) {
             if (event.keyCode === 37) {
                 _this.leftPressed = false;
@@ -33,7 +31,6 @@ function Bar(x, y, width, height, canvas, ball) {
     }
 
     this.drawBar = function () {
-        let ctx = this.canvas.getContext('2d');
         ctx.beginPath();
         ctx.fillStyle = "#5fbf00";
         ctx.fillRect(this.x, this.y, this.width, this.height);
@@ -44,7 +41,7 @@ function Bar(x, y, width, height, canvas, ball) {
         if (this.leftPressed && this.x > 0) {
             this.x -= 5;
         }
-        if (this.rightPressed && this.x + 150 < 500) {
+        if (this.rightPressed && this.x + this.width < 500) {
             this.x += 5;
         }
 
@@ -52,12 +49,12 @@ function Bar(x, y, width, height, canvas, ball) {
 
     this.collision = function () {
         let ballX = [this.ball.x - this.ball.radius, this.ball.x + this.ball.radius]; // [10, 20]
-        let barX = [this.x, this.x + 150]; // [50, 100]
+        let barX = [this.x, this.x + this.width]; // [50, 100]
         let isTouched = (ballX[1] > barX[0] && ballX[0] < barX[1]) && (this.ball.y + this.ball.radius === this.y);
         if (isTouched) {
-            this.ball.dy = -this.ball.dy;
-            score++;
-            document.getElementById('score').innerText = score;
+            this.ball.dy = -(this.ball.dy);
+            // score++;
+            // document.getElementById('score').innerText = score;
         }
     }
 }

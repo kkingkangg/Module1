@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22a2170a-61b3-4512-85a9-03612a9457e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ball.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BounceBall.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B16_OOPs/bt_.html" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/bt_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ball.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BounceBall.html" beforeDir="false" afterPath="$PROJECT_DIR$/BounceBall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brick.js" beforeDir="false" afterPath="$PROJECT_DIR$/brick.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/bt_meterAndFeet.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/bt_meterAndFeet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/bt_ungDungQuanLySanPham.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/bt_ungDungQuanLySanPham.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/lt_Ham01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/lt_Ham01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
@@ -68,6 +67,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,10 +80,30 @@
       <updated>1598725520656</updated>
       <workItem from="1598725521922" duration="5582000" />
       <workItem from="1598792695633" duration="1109000" />
+      <workItem from="1598803291301" duration="680000" />
+      <workItem from="1598841294570" duration="6501000" />
+      <workItem from="1598890512543" duration="65000" />
+      <workItem from="1598922262943" duration="92000" />
+      <workItem from="1598950005090" duration="611000" />
+      <workItem from="1599040032242" duration="1073000" />
+      <workItem from="1599095982860" duration="11452000" />
+      <workItem from="1599115092350" duration="13056000" />
+      <workItem from="1599138929285" duration="14927000" />
+      <workItem from="1599181422537" duration="4281000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599040699353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599040699353" />
+    <state x="555" y="57" key="SettingsEditor" timestamp="1599115385887">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599115385887" />
   </component>
 </project>

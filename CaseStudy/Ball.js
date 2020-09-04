@@ -7,7 +7,6 @@ function Ball(x, y, radius, canvas) {
 
 
     this.drawBall = function (){
-        let ctx = this.canvas.getContext('2d');
         ctx.clearRect(0,0,this.canvas.width, this.canvas.height);
         ctx.beginPath();
         ctx.fillStyle = "#ff0000";
@@ -15,17 +14,18 @@ function Ball(x, y, radius, canvas) {
         ctx.fill();
     }
 
-    this.dx = 5;
-    this.dy = 5;
-    this.moveBall = function () {
-        this.x += this.dx;
-        this.y += this.dy;
-    }
 
     this.random = function (min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min) +min);
+    }
+
+    this.dx = 5;
+    this.dy = 5;
+    this.moveBall = function () {
+        this.x += this.dx;
+        this.y += this.dy;
     }
 
     this.collision = function () {
@@ -39,7 +39,6 @@ function Ball(x, y, radius, canvas) {
         if (this.y + this.dy > this.canvas.height - this.radius) {
             this.isGameOver = true;
             document.getElementById('over').innerText = "Game Over";
-            // alert('Game over');
         }
     }
 }
