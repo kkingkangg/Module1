@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e831a3e6-0ca3-47c8-bf2a-79ea639f219a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/symmetry.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B16_OOPs/Temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/Temperature.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/BounceBall.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy/brick.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/brick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lt_Ham01.html" beforeDir="false" afterPath="$PROJECT_DIR$/lt_Ham01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -66,7 +66,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../B16_OOPs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,6 +93,7 @@
       <workItem from="1599298502746" duration="6654000" />
       <workItem from="1599383312001" duration="824000" />
       <workItem from="1599442789483" duration="2184000" />
+      <workItem from="1599558398991" duration="609000" />
     </task>
     <servers />
   </component>
