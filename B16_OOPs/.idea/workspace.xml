@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84ec5a2-0444-4ac8-bc15-c5fe182c6ada" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TV&amp;Remote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleGame-moveChar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" afterDir="false" />
@@ -96,7 +96,7 @@
       <workItem from="1599445061181" duration="1559000" />
       <workItem from="1599451144392" duration="4256000" />
       <workItem from="1599464024408" duration="87000" />
-      <workItem from="1599559895307" duration="2975000" />
+      <workItem from="1599559895307" duration="4974000" />
     </task>
     <servers />
   </component>
