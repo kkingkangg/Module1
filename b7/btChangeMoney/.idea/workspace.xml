@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fbb141c-cb80-45ab-b4ae-c4c05f7f9f0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/changeMoney.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -17,6 +16,7 @@
       <change beforePath="$PROJECT_DIR$/../../b6/outputJS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b6/outputJS/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../btBienKieudulieuToantu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../btBienKieudulieuToantu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../thToanTu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thToanTu/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../caculator/basic" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,11 +55,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597473876515</updated>
-      <workItem from="1597473877590" duration="1799000" />
+      <workItem from="1597473877590" duration="3010000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="951" y="167" key="FileChooserDialogImpl" timestamp="1597478296320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="951" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597478296320" />
   </component>
 </project>

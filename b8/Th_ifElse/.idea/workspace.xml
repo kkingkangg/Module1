@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7081e8d3-b383-47b1-af28-5c590067e60b" name="Default Changelist" comment="">
+    <list default="true" id="815e323a-884e-4481-99cb-94a3b15bc81a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -20,7 +20,6 @@
       <change beforePath="$PROJECT_DIR$/../../b7/caculator/advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b7/caculator/advanced/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b7/caculator/basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b7/caculator/basic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../b7/thToanTu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../b7/thToanTu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lt_ifElseIf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lt_ifElseIf/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leapYear/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leapYear/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1g87Djw9KLwSg3fMyVQLOt8ET0g" />
+  <component name="ProjectId" id="1g85H24gRJuCpAskOrEIvUJ8H2T" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,18 +47,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lt_toanTu3ngoi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lt_ifElseIf" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7081e8d3-b383-47b1-af28-5c590067e60b" name="Default Changelist" comment="" />
-      <created>1597484247687</created>
+      <changelist id="815e323a-884e-4481-99cb-94a3b15bc81a" name="Default Changelist" comment="" />
+      <created>1597483287911</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597484247687</updated>
-      <workItem from="1597484248727" duration="1112000" />
+      <updated>1597483287911</updated>
+      <workItem from="1597483288981" duration="230000" />
     </task>
     <servers />
   </component>
@@ -67,9 +66,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="951" y="167" key="FileChooserDialogImpl" timestamp="1597485364614">
+    <state x="951" y="167" key="FileChooserDialogImpl" timestamp="1597483518325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="951" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597485364614" />
+    <state x="951" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597483518325" />
   </component>
 </project>

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22a2170a-61b3-4512-85a9-03612a9457e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../B16_OOPs/Temperature.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ball.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BounceBall.html" beforeDir="false" afterPath="$PROJECT_DIR$/BounceBall.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brick.js" beforeDir="false" afterPath="$PROJECT_DIR$/brick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" afterDir="false" />
@@ -52,7 +52,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gmh95UauIjLN8qydfwkYMCKkbJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -89,7 +89,10 @@
       <workItem from="1599095982860" duration="11452000" />
       <workItem from="1599115092350" duration="13056000" />
       <workItem from="1599138929285" duration="14927000" />
-      <workItem from="1599181422537" duration="4281000" />
+      <workItem from="1599181422537" duration="9053000" />
+      <workItem from="1599202203068" duration="7234000" />
+      <workItem from="1599298377822" duration="120000" />
+      <workItem from="1599468371880" duration="599000" />
     </task>
     <servers />
   </component>
@@ -97,10 +100,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599040699353">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599298496425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599040699353" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599298496425" />
     <state x="555" y="57" key="SettingsEditor" timestamp="1599115385887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -8,12 +8,14 @@
 <div style="display: block; margin: auto; background: antiquewhite; height: 735px; width: 900px; position: relative;">
 <canvas style="position: absolute; left: 28%; top: 2%; display: block; margin: auto;border: 5px solid black; background: bisque " id="canvas" width="500" height="650";></canvas>
 <span style="font-size: 40px; vertical-align: top; position: absolute; left: 0; top: 12%; background: azure">Your score: <span  id="score">0</span></span>
+<span style="font-size: 40px; vertical-align: top; position: absolute; left: 4%; top: 23%; background: azure">Level: <span  id="level">1</span></span>
 <div id="over" style="width: 235px; height: 60px; font-size: 50px;
     position: absolute;
     left:44%;
     top:44%;"></div>
 <button onclick="window.location.reload()" style="position: absolute; left: 54%; top: 95%; font-size: 15px">Restart</button>
 </div>
+
 
 
 <script src="Ball.js"></script>
@@ -24,13 +26,13 @@
     let ctx = canvas.getContext("2d");
     let ball = new Ball(10, 585, 10, canvas);
     let score = 0;
-    let level = 1;
     ball.x = ball.random(235, 250);
 
-    let bar = new Bar (200, 600, 500, 15, ball);
+    let bar = new Bar (200, 600, 100, 15, ball);
+    // let bar = new Bar (0, 600, 500, 15, ball);
     bar.listenKeyPressed();
 
-    // let brick = new Brick (40, 30, 70, 10, ball, bar);
+    let brick = new Brick (40, 30, 70, 15, ball, bar);
 
     let id;
     id = setInterval(function () {

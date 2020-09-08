@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eaad7da-8013-4b6c-8c46-d2e4ef3ea0ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dictionary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt_cacHamCoSanTrongMang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -55,7 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../b14,15_Hàm" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +70,9 @@
       <workItem from="1597886010835" duration="9320000" />
       <workItem from="1597912595566" duration="4770000" />
       <workItem from="1597972490591" duration="11046000" />
-      <workItem from="1598072563988" duration="25197000" />
+      <workItem from="1598072563988" duration="28746000" />
+      <workItem from="1598167229467" duration="305000" />
+      <workItem from="1598238079138" duration="215000" />
     </task>
     <servers />
   </component>
@@ -82,5 +84,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="837" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597972751033" />
+    <state x="891" y="167" key="FileChooserDialogImpl" timestamp="1598238293696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="891" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598238293696" />
   </component>
 </project>

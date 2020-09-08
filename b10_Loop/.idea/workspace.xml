@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a456b7a-b27d-4336-ad1c-79cc6e8e32c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../b9/bt_CTDK01/DK02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/BounceBall.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/brick.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/brick.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/ltLoop02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b14,15_Hàm/lt_Ham01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b14,15_Hàm/lt_Ham01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -54,7 +62,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../b9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,7 +80,10 @@
       <workItem from="1597767417894" duration="3291000" />
       <workItem from="1597800135267" duration="9114000" />
       <workItem from="1597832052029" duration="680000" />
-      <workItem from="1597844780638" duration="895000" />
+      <workItem from="1597844780638" duration="1236000" />
+      <workItem from="1597852668351" duration="20000" />
+      <workItem from="1599299345760" duration="977000" />
+      <workItem from="1599300459409" duration="838000" />
     </task>
     <servers />
   </component>
@@ -80,10 +91,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="951" y="167" key="FileChooserDialogImpl" timestamp="1597845092884">
+    <state x="951" y="167" key="FileChooserDialogImpl" timestamp="1599300391775">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="951" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597845092884" />
+    <state x="951" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599300391775" />
     <state x="827" y="189" key="run.anything.popup" timestamp="1597724574663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

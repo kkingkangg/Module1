@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60929914-ffd7-414e-9e35-46b87b2d07b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chess.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../basicForm/.idea/workspace.xml" afterDir="false" />
@@ -39,7 +38,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../calendar" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,11 +49,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597467517199</updated>
-      <workItem from="1597467519210" duration="1167000" />
+      <workItem from="1597467519210" duration="1333000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="951" y="167" key="FileChooserDialogImpl" timestamp="1597468862916">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="951" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597468862916" />
   </component>
 </project>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User management</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table th, tr, td {
+            border: solid black 1px;
+            height: 30px;
+        }
+
+        th.order {
+            width: 60px;
+        }
+
+        th.name {
+            width: 360px;
+        }
+
+        th.button1 {
+            width: 120px;
+        }
+
+        th.button2 {
+            width: 240px;
+        }
+    </style>
+</head>
+<body>
+<h1>User Management Program</h1>
+<h3>Add new user</h3>
+<div>
+    <label>
+        <input type="text" id="user" placeholder="New user">
+    </label>
+    <button onclick="addUser()">Add</button>
+</div>
+<h3>Display all user</h3>
+<div id="table"></div>
+<script>
+    let User = [];
+    let order = 0;
+    drawTable(User);
+
+    function addUser() {
+        let name = document.getElementById("user").value;
+        if (validateUser(name)) {
+            console.log("order= " + order);
+            User[order] = [order + 1, name, "<button onclick='editUser(" + order + ")'>Edit</button>", "<button onclick='deleteUser(" + order + ")'>Delete</button>"];
+            order++;
+            drawTable(User);
+        } else {
+            alert("Wrong input");
+        }
+    }
+
+    function editUser(index) {
+        User[index][1] = prompt("Input new name");
+        drawTable(User);
+    }
+
+    function deleteUser(index) {
+        let temp = index;
+        User.splice(index, 1);
+        for (let i = index; i < User.length; i++) {
+            User[temp][0] = temp + 1;
+            User[temp][2] = "<button onclick='editUser(" + temp + ")'>Edit</button>";
+            User[temp][3] = "<button onclick='deleteUser(" + temp + ")'>Delete</button>";
+            temp++;
+        }
+        drawTable(User);
+        order = User.length;
+        console.log("order= " + order);
+    }
+
+    function validateUser(data) {
+        return !(data === "" || data === null);
+    }
+
+    function drawTable(array) {
+        let table;
+        let row = array.length;
+        let numbers = row;
+        table = "<table>";
+        table = table + "<tr>";
+        table = table + "<th class='order'>" + "Order" + "</th>";
+        table = table + "<th class='name'>" + "User name" + "</th>";
+        table = table + "<th class='button1'>" + "</th>";
+        table = table + "<th class='button2'>" + numbers + " Users" + "</th>";
+        table = table + "</tr>";
+        for (let i = 0; i < row; i++) {
+            table = table + "<tr>";
+            for (let j = 0; j < 4; j++) {
+                table = table + "<td>" + array[i][j] + "</td>";
+            }
+            table = table + "</tr>";
+        }
+        document.getElementById("table").innerHTML = table;
+    }
+</script>
+</body>
+</html>

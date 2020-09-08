@@ -53,9 +53,13 @@
         if(hero.left < window.innerWidth - hero.size){
             hero.moveRight();
         }
-        if(hero.left >= window.innerWidth - hero.size) {
+        if(hero.left > window.innerWidth - hero.size) {
             hero.moveDown();
         }
+        if(hero.top > window.innerHeight - hero.size) {
+            hero.moveLeft();
+        }
+
 
 
 
