@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TV and Remote</title>
+</head>
+<body>
+<input type="button" onclick="channel()" value="channel">
+
+<input type="button" onclick="turnOnTV()" value="turnOn">
+
+<input type="button" onclick="turnOff()" value="turnOff"> <br> <br>
+
+<input type="button" onclick="volumeUp()" value="volumeUp">
+
+<input type="button" onclick="volumeDown()" value="volumeDown">
+
+<input type="button" onclick="moveChannel()" value="moveChannel">
+
+
+<script>
+    class TV {
+        constructor(channel, volume, status) {
+            this.channel = channel;
+            this.volume = volume;
+            this.status = status;
+        };
+        move(Remote) {
+            if (this.status){
+                Remote.Controls()
+                this.channel = Remote.code;
+            } else {
+                alert("plz turnOn TV");
+            }
+        };
+        Status() {
+            alert("current channel: " + this.channel + ", current volume: " + this.volume)
+        };
+        volumeUp() {
+            if (this.status) {
+                this.volume += 1;
+                alert(this.volume);
+            } else {
+                alert("plz turnOn TV")
+            }
+        }
+        volumeDown() {
+            if (this.status) {
+                this.volume -= 1;
+                alert(this.volume);
+            } else {
+                alert("plz turnOn TV")
+            }
+        }
+        turnOnTV() {
+            alert("TV on");
+        };
+        turnOffTV() {
+            alert("TV off");
+        }
+    }
+
+    class Remote{
+        constructor(code) {
+            this.code = code;
+        };
+        Controls(){
+            this.code = +prompt("enter your channel")
+        };
+        channel(TV){
+            if (!TV.status){
+                alert("plz turnOn TV");
+            } else {
+                TV.Status();
+            }
+        };
+        turnOnTV(TV){
+            TV.turnOnTV();
+            TV.status = true;
+        };
+        turnOffTV(TV){
+            TV.turnOffTV();
+            TV.status = false;
+        };
+    }
+
+
+
+    let remote = new Remote(7);
+
+
+
+    let tv = new TV(7,20,false)
+
+
+
+    function turnOnTV(){
+
+        remote.turnOnTV(tv);
+
+    }
+
+    function channel(){
+
+        remote.channel(tv)
+
+    }
+
+    function turnOff(){
+
+        remote.turnOffTV(tv);
+
+    }
+
+    function volumeUp(){
+
+        tv.volumeUp();
+
+    }
+
+    function volumeDown(){
+
+        tv.volumeDown();
+
+    }
+
+    function moveChannel(){
+
+        tv.move(remote);
+
+    }
+
+
+
+
+</script>
+</body>
+</html>
