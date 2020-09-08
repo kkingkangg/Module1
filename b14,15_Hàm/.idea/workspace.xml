@@ -3,15 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e831a3e6-0ca3-47c8-bf2a-79ea639f219a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/Bar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/BounceBall.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/BounceBall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/BounceBall.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy/brick.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/brick.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/bt_cacHamCoSanTrongMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bt_meterAndFeet.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt_meterAndFeet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lt_Ham01.html" beforeDir="false" afterPath="$PROJECT_DIR$/lt_Ham01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4BtCreateList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b4_CVcanhan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b5/basicForm/.idea/workspace.xml" afterDir="false" />
@@ -65,7 +66,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../B16_OOPs" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +85,14 @@
       <workItem from="1598328540128" duration="3031000" />
       <workItem from="1598345247085" duration="2107000" />
       <workItem from="1598423029788" duration="148000" />
-      <workItem from="1598945772763" duration="1326000" />
+      <workItem from="1598945772763" duration="2831000" />
+      <workItem from="1598948776702" duration="3378000" />
+      <workItem from="1599039971134" duration="851000" />
+      <workItem from="1599095519692" duration="401000" />
+      <workItem from="1599095957617" duration="22000" />
+      <workItem from="1599298502746" duration="6654000" />
+      <workItem from="1599383312001" duration="824000" />
+      <workItem from="1599442789483" duration="2184000" />
     </task>
     <servers />
   </component>
@@ -92,10 +100,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="891" y="167" key="FileChooserDialogImpl" timestamp="1598423177920">
+    <state x="891" y="167" key="FileChooserDialogImpl" timestamp="1599445055869">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="891" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598423177920" />
+    <state x="891" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599445055869" />
     <state x="-44" y="5" width="808" height="803" key="dock-window-1" timestamp="1598324899536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
